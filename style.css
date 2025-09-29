@@ -4,6 +4,9 @@ body {
   background-color: #121212;
   color: white;
   overflow: hidden;
+  background-image: linear-gradient(45deg, #1e1e1e 1px, transparent 1px),
+                    linear-gradient(-45deg, #1e1e1e 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 
 .top-right {
@@ -25,11 +28,11 @@ body {
   display: flex;
   height: 100vh;
   padding: 60px;
+  box-sizing: border-box;
 }
 
 .left-panel {
-  flex: 1;
-  max-width: 400px;
+  width: 400px;
 }
 
 .left-panel h1 {
@@ -58,20 +61,14 @@ body {
   cursor: pointer;
 }
 
-.pronunciation {
-  margin-top: 30px;
-  font-size: 0.9em;
-  color: #aaa;
-}
-
 .avatar-grid {
-  flex: 2;
+  flex: 1;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   transform: rotate(-15deg);
-  align-content: start;
   justify-content: center;
+  align-content: start;
   padding-top: 40px;
 }
 
@@ -79,6 +76,14 @@ body {
   width: 60px;
   height: 60px;
   object-fit: contain;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 0.9em;
+  color: #aaa;
 }
 
 .bottom-right {
