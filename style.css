@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slooket</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="top-buttons">
+      <button>Login</button>
+      <button>Register</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="info">
+      <h1>SLOOKET</h1>
+      <p>WE ARE SO COOL...</p>
+      <p>An open-source Blooket private server created by Slooket written entirely in JavaScript.</p>
+      <div class="main-buttons">
+        <button>Register</button>
+        <button>Store</button>
+        <button onclick="window.open('https://discord.com', '_blank')">Discord</button>
+      </div>
+      <p class="note">Pronunciation ("Black-it")</p>
+    </section>
+
+    <section class="avatar-grid">
+      <!-- JavaScript will populate avatars here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Running Slooket 2.3.0</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
