@@ -9,7 +9,7 @@ const avatars = [
   'ghost.png',
   'robot.png',
   'banana.png',
-  'wizard.png'
+  'soda.png'
 ];
 
 avatars.forEach(name => {
