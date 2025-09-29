@@ -3,78 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Slooket Clone</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #121212;
-      color: #fff;
-      background-image: linear-gradient(#1e1e1e 1px, transparent 1px),
-                        linear-gradient(to right, #1e1e1e 1px, transparent 1px);
-      background-size: 40px 40px;
-    }
-
-    .container {
-      padding: 40px;
-      text-align: left;
-    }
-
-    h1 {
-      font-size: 3em;
-      margin-bottom: 0;
-      color: #00ffff;
-    }
-
-    p {
-      font-size: 1.2em;
-      margin-top: 0;
-    }
-
-    .buttons {
-      margin-top: 20px;
-    }
-
-    button {
-      background-color: #00ffff;
-      border: none;
-      padding: 10px 20px;
-      margin-right: 10px;
-      font-size: 1em;
-      cursor: pointer;
-      border-radius: 8px;
-      transition: background 0.3s;
-    }
-
-    button:hover {
-      background-color: #00cccc;
-    }
-
-    .footer {
-      position: absolute;
-      bottom: 20px;
-      left: 40px;
-      font-size: 0.9em;
-      color: #aaa;
-    }
-  </style>
+  <title>Slooket</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>SLOOKET</h1>
-    <p>WE ARE SO COOL...<br>
-    An open-source Blooket private server created by Slooket, written entirely in JavaScript.</p>
-
-    <div class="buttons">
-      <button onclick="alert('Register clicked')">Register</button>
-      <button onclick="alert('Store clicked')">Store</button>
-      <button onclick="window.open('https://discord.com', '_blank')">Discord</button>
+  <header>
+    <div class="top-buttons">
+      <button>Login</button>
+      <button>Register</button>
     </div>
+  </header>
 
-    <div class="footer">
-      Pronunciation ("Black-it")<br>
-      Running Slooket 2.3.0
-    </div>
-  </div>
+  <main>
+    <section class="info">
+      <h1>SLOOKET</h1>
+      <p>WE ARE SO COOL...</p>
+      <p>An open-source Blooket private server created by Slooket written entirely in JavaScript.</p>
+      <div class="main-buttons">
+        <button>Register</button>
+        <button>Store</button>
+        <button onclick="window.open('https://discord.com', '_blank')">Discord</button>
+      </div>
+      <p class="note">Pronunciation ("Black-it")</p>
+    </section>
+
+    <section class="avatar-grid">
+      <!-- JavaScript will populate avatars here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Running Slooket 2.3.0</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
