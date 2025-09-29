@@ -20,7 +20,7 @@ These amazing people have contributed greatly to Slooket over it's development:
 
 Slooket - Lead Developer and founder of Slooket (also wrote this README)
 ablimp - Developer and contributor for Slooket
-sleepy - 
+sleepy - Main inspiration for Slooket
 
 
 ## License
