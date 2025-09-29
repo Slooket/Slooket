@@ -1,16 +1,27 @@
-## Hi there 👋
+# Slooket
 
-<!--
-**Slooket/Slooket** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Slooket is a Blooket inspired game with many many additional features when compared to Blooket, we're also always looking for new exciting features to add to the game so feel free to suggest them over at our Discord! Here are some of the features we have so far:
 
-Here are some ideas to get you started:
+Custom Packs
+Custom Blooks
+Trading
+Multiplayer
+Leaderboards
+Chat
+Friends
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Selfhost
+⚠️ UNDER CONSTRUCTION ⚠️
+
+Selfhosting instructions will be available once Slooket V1 is in a release ready state. Site is currently unavaliable.
+
+## Credits
+These amazing people have contributed greatly to Slooket over it's development:
+
+Slooket - Lead Developer and founder of Slooket (also wrote this README)
+ablimp - Developer and contributor for Slooket
+sleepy - 
+
+
+## License
+Distributed under the GPL-3.0 License. See LICENSE for more information.
