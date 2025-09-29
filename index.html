@@ -7,34 +7,30 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="top-buttons">
-      <button>Login</button>
-      <button>Register</button>
-    </div>
-  </header>
+  <div class="top-right">
+    <button class="nav-btn">Login</button>
+    <button class="nav-btn">Register</button>
+  </div>
 
-  <main>
-    <section class="info">
+  <div class="main">
+    <div class="left-panel">
       <h1>SLOOKET</h1>
-      <p>WE ARE SO COOL...</p>
-      <p>An open-source Blooket private server created by Slooket written entirely in JavaScript.</p>
-      <div class="main-buttons">
+      <p class="subtitle">WE ARE SO COOL...</p>
+      <p class="description">
+        A open-source Blooket private server created by Slooket written entirely in JavaScript.
+      </p>
+      <div class="button-group">
         <button>Register</button>
         <button>Store</button>
         <button onclick="window.open('https://discord.com', '_blank')">Discord</button>
       </div>
-      <p class="note">Pronunciation ("Black-it")</p>
-    </section>
+      <p class="pronunciation">Pronunciation ("Black-it")</p>
+    </div>
 
-    <section class="avatar-grid">
-      <!-- JavaScript will populate avatars here -->
-    </section>
-  </main>
+    <div class="avatar-grid" id="avatarGrid"></div>
+  </div>
 
-  <footer>
-    <p>Running Slooket 2.3.0</p>
-  </footer>
+  <div class="bottom-right">Running Slooket 2.3.0</div>
 
   <script src="script.js"></script>
 </body>
