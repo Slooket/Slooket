@@ -31,13 +31,13 @@ body {
 /* Decorative badge image */
 .corner-image {
   position: absolute;
-  top: 20px;
-  right: 120px; /* Adjust to avoid overlapping buttons */
+  top: 30px;
+  right: 160px; /* Nudged inward from edge */
   z-index: 9;
 }
 
 .corner-image img {
-  width: 60px;
+  width: 40px; /* Smaller size */
   height: auto;
 }
 
@@ -49,15 +49,9 @@ body {
   box-sizing: border-box;
 }
 
-/* Left panel with title and buttons */
+/* Left panel with description and buttons */
 .left-panel {
   width: 400px;
-}
-
-.left-panel h1 {
-  font-size: 3em;
-  color: #00ffff;
-  margin-bottom: 0;
 }
 
 .subtitle {
