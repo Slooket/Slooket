@@ -7,31 +7,38 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Top-right buttons -->
   <div class="top-right">
     <button class="nav-btn">Login</button>
     <button class="nav-btn">Register</button>
   </div>
 
+  <!-- Decorative badge image -->
+  <div class="corner-image">
+    <img src="media/badge.png" alt="Badge" />
+  </div>
+
+  <!-- Main layout -->
   <div class="main">
     <div class="left-panel">
       <h1>SLOOKET</h1>
       <p class="subtitle">WE ARE SO COOL...</p>
       <p class="description">
-        A open-source Blooket private server created by Slooket written entirely in JavaScript. (don't worry, this is the beta version so it won't be like this forever.)
+        A open-source Blooket private server created by Slooket written entirely in JavaScript.
       </p>
       <div class="button-group">
         <button>Register</button>
         <button>Store</button>
-        <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfzKgizQQT2yZQe6iHsMqjSKvh0QiAEIt2pEcfck54qXm9yPg/viewform?usp=dialog', '_blank')">Become Staff</button>
+        <button onclick="window.open('https://discord.com', '_blank')">Discord</button>
       </div>
     </div>
 
-    <div class="avatar-grid" id="avatarGrid"></div>
+    <!-- Avatar grid background -->
+    <div class="avatar-grid"></div>
   </div>
 
-  <div class="bottom-left">Pronunciation ("sloo-kit")</div>
-  <div class="bottom-right">Running Slooket 1.0.0 Beta</div>
-
-  <script src="script.js"></script>
+  <!-- Footer notes -->
+  <div class="bottom-left">Pronunciation ("Sloo-Kit")</div>
+  <div class="bottom-right">Running Slooket 2.3.0</div>
 </body>
 </html>
