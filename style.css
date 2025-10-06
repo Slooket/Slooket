@@ -15,6 +15,7 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
+  z-index: 10;
 }
 
 .nav-btn {
@@ -25,6 +26,19 @@ body {
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
+}
+
+/* Decorative badge image */
+.corner-image {
+  position: absolute;
+  top: 20px;
+  right: 120px; /* Adjust to avoid overlapping buttons */
+  z-index: 9;
+}
+
+.corner-image img {
+  width: 60px;
+  height: auto;
 }
 
 /* Main layout */
@@ -73,7 +87,7 @@ body {
 /* Avatar grid using background image */
 .avatar-grid {
   flex: 1;
-  background-image: url('media/animal-grid.png'); /* Replace with your actual path */
+  background-image: url('media/animal-grid.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
